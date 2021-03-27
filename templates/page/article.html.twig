@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ properties.getTitle() }}{% endblock %}
+
+{% block body %}
+
+<article>
+    {{ content|raw }}
+</article>
+{% endblock %}

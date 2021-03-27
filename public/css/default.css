@@ -1,0 +1,40 @@
+body {
+    font-size:16px;
+    min-height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000000;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+.heading-permalink {
+    color: #999999;
+}
+
+.heading-permalink:hover {
+    color: black;
+}
+
+main {
+    margin-bottom: 2.5rem;
+}
+
+footer {
+    border-top: 1px solid black;
+}
+
+

@@ -1,0 +1,11 @@
+
+<h1>Some Articles</h1>
+
+<ul>
+    {% for article in articles %}
+    <li>
+        <a href="{{ article.uri }}">{{ article.properties.title }}</a>
+        <p>{{ article.properties.synopsis }}</p>
+    </li>
+    {% endfor %}
+</ul>
